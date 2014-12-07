@@ -8,7 +8,6 @@ class FormatFeature
 
 
 
-
   # What do you want??
   #
   #   * All I care about is the code to generate controllers
@@ -22,6 +21,7 @@ class FormatFeature
       Feature.new(f['name'], f)
     end
   end
+
 
 
   class Feature

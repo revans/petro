@@ -45,3 +45,8 @@ features:
       attributes:
         email: string
         password_digest: string
+  - name: setting
+    model:
+      attributes:
+        name: string
+        user: references

@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths   = ["lib"]
   s.requirements    << 'none'
 
-  s.add_dependency 'activesupport'
+  s.add_dependency 'activesupport',         "~> 4.2.0.rc2"
   s.add_development_dependency "rake",      "~> 10.0"
   s.add_development_dependency "minitest",  "~> 5.4"
 end
