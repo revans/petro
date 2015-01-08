@@ -12,5 +12,5 @@ group :development do
 end
 ```
 
-Look at the test/assets/feature.yml file to get an idea of the structure. It's a yaml file that is
+Look at the [test/assets/feature.yml](https://github.com/revans/petro/tree/master/test/assets) file to get an idea of the structure. It's a yaml file that is
 generated into a hash before it's passed to petro to generate the rails commands.
