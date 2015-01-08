@@ -11,3 +11,6 @@ group :development do
   gem 'petro', github: 'revans/petro'
 end
 ```
+
+Look at the test/assets/feature.yml file to get an idea of the structure. It's a yaml file that is
+generated into a hash before it's passed to petro to generate the rails commands.
