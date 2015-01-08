@@ -1,6 +1,6 @@
 require_relative 'gem_version'
 
-module Regeneration
+module Petro
   def self.version
     gem_version
   end

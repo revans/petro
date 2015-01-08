@@ -1,4 +1,4 @@
-module Regeneration
+module Petro
   module VERSION
     MAJOR = 0
     MINOR = 0

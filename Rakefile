@@ -1,7 +1,7 @@
 require 'rake/testtask'
 require 'rubygems/package_task'
 
-spec = eval(::File.read('regeneration.gemspec'))
+spec = eval(::File.read('petro.gemspec'))
 
 Gem::PackageTask.new(spec) do |p|
   p.gem_spec = spec
